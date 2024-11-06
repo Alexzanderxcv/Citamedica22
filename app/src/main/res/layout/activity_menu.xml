@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicio"
+            android:textSize="60sp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/bondrians"
+            android:layout_marginLeft="25dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_reservar_cita"
+            android:layout_width="match_parent"
+            android:text="Registrar Cita"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/ic_post_add"
+            style="@style/menuButtom"
+            />
+        <Button
+            android:id="@+id/btn_mis_citas"
+            android:layout_width="match_parent"
+            android:text="Mis Citas"
+            style="@style/menuButtom"
+            android:drawableLeft="@drawable/ic_calendar_month"
+            android:backgroundTint="@color/btn_color" />
+
+        <Button
+            android:id="@+id/btn_lista_especialidades"
+            android:layout_width="match_parent"
+            android:text="Nuestras especialidades"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/ic_post_add"
+            style="@style/menuButtom"
+            />
+
+        <Button
+            android:id="@+id/btn_lista_doctores"
+            android:layout_width="match_parent"
+            android:text="Nuestros Doctores"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/ic_post_add"
+            style="@style/menuButtom"
+            />
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:text="Cerrar Sesion"
+            style="@style/menuButtom"
+            android:drawableLeft="@drawable/ic_logout"
+            android:backgroundTint="@color/btn_color"/>
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

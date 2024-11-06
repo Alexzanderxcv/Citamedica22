@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="btn_color">#6000f4</color>
+    <color name="color_morado">#FF6200EE</color>
+    <color name="color_morado_accent">#512DA8</color>
+    <color name="color_morado_light">#E0D9ED</color>
+    <color name="color_gray">#B5B5B5</color>
+    <color name="color_gray_light">#F5F5F5</color>
+
+</resources>
